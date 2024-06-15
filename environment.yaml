@@ -1,4 +1,4 @@
-name: d:\Projects\share-card-backend\.venv
+name: .\.venv
 channels:
   - defaults
 dependencies:
