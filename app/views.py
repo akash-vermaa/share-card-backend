@@ -5,7 +5,7 @@ from app.mock_data.students import student_data
 
 @app.route("/api/students", methods=["GET"])
 def getStudentsList():
-    return jsonify(student_data["data"]), 200
+    return jsonify(student_data), 200
 
 @app.route("/api/students/<id>", methods=["GET"])
 def getStudentDetail(id):
